@@ -1,10 +1,10 @@
-package service;
+package service.proxy;
 
 public class counter implements liquor {
 
     liquor liquor;
 
-    public counter(service.liquor liquor) {
+    public counter(service.proxy.liquor liquor) {
         this.liquor = liquor;
     }
 

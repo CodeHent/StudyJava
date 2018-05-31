@@ -1,4 +1,4 @@
-package service;
+package service.proxy;
 
 public interface liquor {
     void taste();

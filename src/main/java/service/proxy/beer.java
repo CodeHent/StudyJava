@@ -1,4 +1,4 @@
-package service;
+package service.proxy;
 
 public class beer implements liquor {
     public void taste() {

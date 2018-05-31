@@ -1,4 +1,4 @@
-package service;
+package service.proxy;
 
 public class maotai implements liquor {
     public void taste() {
