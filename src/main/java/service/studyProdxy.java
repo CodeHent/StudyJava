@@ -18,6 +18,8 @@ public class studyProdxy {
         counter c = new counter(li);
         c.taste();
 
+        System.out.println("master branch");
+
         liquor proxy = (liquor) Proxy.newProxyInstance(mao.getClass().getClassLoader(), new Class[]{liquor.class},new LiquorProxy(mao));
          proxy.taste();
 
