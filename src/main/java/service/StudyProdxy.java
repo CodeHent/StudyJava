@@ -4,12 +4,13 @@ import service.aop.LittleWhite;
 import service.aop.jikejia;
 import service.proxy.*;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import org.apache.log4j.Logger;
 
-public class studyProdxy {
+public class StudyProdxy {
+    private static final Logger logger = Logger.getLogger(StudyProdxy.class.getName());
 
     public static void main(String[] args){
         liquor li = new beer();
@@ -42,6 +43,9 @@ public class studyProdxy {
                 }
             }
         }
-
+        Integer a = null;
+        System.out.println(String.format("aaa%s",a));
+        logger.info("asdasdasljdlasj;dl++++++++++++++++++++++++++++");
+        logger.error("dasdasdjas+++++++++++++++++++++++++++++++++");
     }
 }
