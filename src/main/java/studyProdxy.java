@@ -27,7 +27,7 @@ public class studyProdxy {
             add(3);
         }};
         System.out.println(list);
-        sort(list,);
+        sort(list);
         System.out.println(list);
     }
 
